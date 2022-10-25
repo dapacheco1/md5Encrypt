@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="bg-gray-100">
+      <div class="flex flex-col gap-3">
+        <label for="txtEncrypt">Texto a encriptar</label>
+        <input type="text" name="txtEncrypt" placeholder="Texto para encriptar">
+        <div class="flex flex-col">
+
+          <button class="encryptBtn">Encriptar MD5</button>
+          <button class="decryptBtn">Desencriptar</button>
+          <button class="saveEnc">Guardar</button>
+          <button class="listarEnc">Listar</button>
+          <button class="buscar">Buscar</button>
+          <button class="eliminar">Eliminar</button>
+        </div>
+        <label for="decryption">Conversion</label>
+        <input type="text" name="txtDecrypt">
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
